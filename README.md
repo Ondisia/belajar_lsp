@@ -27,3 +27,14 @@ php artisan make:controller ControllerBerita -r
 Cara link storage
 
 php artisan storage:link
+
+
+9. Perintah tambahan yang berguna
+Perintah	Fungsi
+php artisan serve	Menjalankan server pengembangan Laravel
+php artisan route:list	Melihat daftar route yang terdaftar
+php artisan migrate:status	Memeriksa status migration
+php artisan make:migration nama_migration	Membuat migration baru
+php artisan make:seeder BeritaSeeder	Membuat seeder untuk mengisi data contoh
+php artisan db:seed	Menjalankan seeder
+php artisan optimize:clear	Membersihkan cache optimasi Laravel
